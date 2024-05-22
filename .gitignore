@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+
+state
+target
+*.local
+Cargo.lock
+admin_login.json
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

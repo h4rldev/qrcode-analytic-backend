@@ -1,0 +1,24 @@
+[package]
+name = "qrcode-analytic"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ntex = { version = "1.2.1", features = ["tokio", "compress"] }
+tokio = { version = "1.35.1", features = ["full"] }
+serde = { version = "1.0.195", features = ["derive"] }
+chrono = "0.4.31"
+serde_json = "1.0.111"
+ctrlc = "3.4.2"
+futures = "0.3.30"
+ntex-session = "0.4.0"
+ntex-files = "0.4.1"
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
+password-generator = { version = "0.1.0", git = "https://github.com/h4rldev/password-generator"}
+bcrypt = "0.15.1"
+jsonwebtoken = "9.3.0"
+color-eyre = "0.6.3"
+rand = "0.8.5"
