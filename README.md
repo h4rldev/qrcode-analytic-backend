@@ -1,6 +1,6 @@
 # qrcode-analytic
 
-An analytics website powered by [ntex](https://ntex.rs)
+The backend for an analytics website powered by [ntex](https://ntex.rs)
 
 A commission for the upper secondary/highschool/gymnasium I attend.
 
